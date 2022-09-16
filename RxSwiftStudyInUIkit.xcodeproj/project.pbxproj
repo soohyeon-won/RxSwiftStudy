@@ -30,6 +30,7 @@
 		E958D9B028B47E4000D05AC4 /* ShareStudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E958D9AF28B47E4000D05AC4 /* ShareStudyViewController.swift */; };
 		E958D9B228B47FA100D05AC4 /* OutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E958D9B128B47FA100D05AC4 /* OutlineViewController.swift */; };
 		E9D1A21028D4230A00C46741 /* SwfitUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1A20F28D4230A00C46741 /* SwfitUIView.swift */; };
+		E9D1A21428D42AA100C46741 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1A21328D42AA100C46741 /* Preview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		E958D9AF28B47E4000D05AC4 /* ShareStudyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareStudyViewController.swift; sourceTree = "<group>"; };
 		E958D9B128B47FA100D05AC4 /* OutlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewController.swift; sourceTree = "<group>"; };
 		E9D1A20F28D4230A00C46741 /* SwfitUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwfitUIView.swift; sourceTree = "<group>"; };
+		E9D1A21328D42AA100C46741 /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,9 +285,26 @@
 		E9D1A20E28D4228F00C46741 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				E9D1A20F28D4230A00C46741 /* SwfitUIView.swift */,
+				E9D1A21228D42A9700C46741 /* Preview */,
+				E9D1A21128D42A8D00C46741 /* Base */,
 			);
 			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		E9D1A21128D42A8D00C46741 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E9D1A20F28D4230A00C46741 /* SwfitUIView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E9D1A21228D42A9700C46741 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				E9D1A21328D42AA100C46741 /* Preview.swift */,
+			);
+			path = Preview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -534,6 +553,7 @@
 				E958D9B228B47FA100D05AC4 /* OutlineViewController.swift in Sources */,
 				E63613A628B22E6A0050C070 /* ShareStudy.swift in Sources */,
 				E6A16EAA28BB3FBE00921D78 /* BaseTextTableViewCell.swift in Sources */,
+				E9D1A21428D42AA100C46741 /* Preview.swift in Sources */,
 				E6A16EA328BA1B4A00921D78 /* PagingViewController.swift in Sources */,
 				E94DDCBE28B5CFE4005451EA /* Map.swift in Sources */,
 				E94DDCBC28B5CFD7005451EA /* MapStudyViewController.swift in Sources */,
